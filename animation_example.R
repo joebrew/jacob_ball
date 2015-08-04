@@ -89,3 +89,7 @@ for (i in 1:length(bla)){
 }
 # You now have an ordered sequence of .pngs in your my_folder
 # and you can use some gif software to put them all together
+# In linux you can cd into my_folder, and then run the following via command line:
+# > convert -delay 10 -loop 0 *.png result.gif
+# This will generate a gif called result.gif using all of the pngs in that folder
+# In Mac / Windows, you're on your own.
