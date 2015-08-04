@@ -93,3 +93,7 @@ for (i in 1:length(bla)){
 # > convert -delay 10 -loop 0 *.png result.gif
 # This will generate a gif called result.gif using all of the pngs in that folder
 # In Mac / Windows, you're on your own.
+
+# If you want a video (mp4) instead of a gif, you can use a progra mlike ffmpeg
+# Cd into my_folder, and then run the following:
+# > ffmpeg -start_number 000001 -r 5 -i %6d.png my_video.mp4
